@@ -1,0 +1,48 @@
+#main {
+	margin: 0 auto;
+	width: 90%;
+}
+#header, #footer {
+	clear: left;
+	padding: 0 10px;
+	zoom: 1; //hasLayout fix for IE7;
+}
+#container {
+	float: left;
+	padding: 20px 0 0 0;
+	width: 100%;
+}
+#content {
+	float: left;
+	width: 100%;
+}
+#sidebar {
+	float: right;
+	margin: 0 0 20px -240px;
+	padding: 0 20px 0 0;
+	width: 220px;
+}
+.widecolumn {
+	clear: left;
+	margin: 0 260px 0 50px;
+}
+.narrowcolumn {
+	clear: left;
+	margin: 0 260px 0 170px;
+	position: relative;
+}
+.threecolumn {
+	clear: left;
+	float: left;
+	display: inline;
+	width: 100%;
+}
+.col {
+	float: left;
+	margin-right: -1px; //IE6 and IE7 round up pixels;
+	width: 33.333%;
+}
+hr {
+	height: 0;
+	visibility: hidden;
+}

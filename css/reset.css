@@ -1,0 +1,24 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote,
+a, em, img, strong, dl, dd, ol, ul, li, form, label, table, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+}
+
+body {
+	background: white;
+	color: black;
+}
+
+:focus {
+	outline: 0;
+}
+
+ul {
+	list-style: none;
+}
+

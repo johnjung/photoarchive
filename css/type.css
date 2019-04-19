@@ -1,0 +1,53 @@
+body {
+	font-family: Georgia, serif;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 20px;
+}
+em {
+	font-style: italic;
+}
+h1, h2, p, li, input {
+	padding: 0 10px;
+}
+h1, h2 {
+	font-weight: normal;
+}
+h1 {
+	color: #555555;
+	font-size: 30px;
+	line-height: 40px;
+	padding-bottom: 20px;
+	position: relative;
+	top: 12px;
+}
+h2 {
+	border-bottom: 1px solid #d3c8ac;
+	color: #555555;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 14px;
+	padding-bottom: 6px;
+	position: relative;
+	top: 8px;
+}
+h3 {
+	font-size: 13px;
+	font-weight: bold;
+}
+p {
+	padding-bottom: 20px;
+}
+ol {
+	margin-left: 40px;
+}
+li {
+	padding-bottom: 5px;
+}
+a:link, a:visited, a:hover, a:active {
+	color: #0a3577;
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}

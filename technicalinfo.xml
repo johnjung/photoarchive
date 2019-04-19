@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Technical Information : Photographic Archive : The
+University of Chicago</title>
+</head>
+
+<body>
+
+<div class="widecolumn">
+
+<a href="db.xqy?one=apf2-00149.xml">
+<img id="illustrationlarge" src="graphics/apf2-00149.jpg"/>
+</a>
+
+<h1>Technical Information</h1>
+
+<p>Photographic materials, including prints, lantern slides, glass plate
+negatives, and transparencies, are scanned on flatbed scanners equipped
+with transparency units. Production master files are captured at 400, 600,
+or 1200 ppi, depending on color, condition, and medium, and are saved and
+stored as uncompressed Tiffs. All monitors and scanners are calibrated
+utilizing the Monaco EZ Color System. Software employed in post-capture
+processing consists of Adobe Photoshop (ver. 9), and Equilibrium
+Debabelizer (ver.5) with which JPEG derivatives for Web display are batch-
+produced.</p>
+
+<p>Descriptive metadata records are created according to the University of
+Chicago Library Guidelines for use of the Dublin Core element set (DCMI) in
+Library digitization projects. The controlled vocabulary terms of each
+record are drawn from the Getty Art and Architecture Thesaurus, the Library
+of Congress Name Authority File, the Library of Congress Subject Headings,
+the United States Geographical Survey, and the Getty Thesaurus of
+Geographic Names.</p>
+
+<p>The Campus Grid Location designation in descriptive records is an
+alphanumeric identifier which references  the position of Buildings and
+Ground features on the University's Master Grid Map. For buildings and
+ground features, which have been demolished, the Photofiles team assigned
+identifiers to which an "H" was added to denote historical status.
+Additionally, identifiers were fashioned for existing ground features that
+had no previous grid number assignments.</p>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,244 @@
+body {
+	background: #342e25 url('../graphics/bg.gif') repeat-x 0 0; 
+	border-top: 5px solid #afa693;
+	border-top: 5px solid #91897a;
+	text-align: center;
+	min-width: 760px;
+	padding-bottom: 2em;
+}
+#main {
+	background: #fbf9ee;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	margin: 0 auto;
+	min-width: 800px;
+	max-width: 1168px;
+	position: relative;
+	text-align: left;
+	width: 90%;
+}
+#nametag {
+	background: #afa693;
+	background: #91897a;
+	font-family: Verdana, sans-serif;
+	font-size: 11px;
+	padding: 0 0 4px 0;
+	position: absolute;
+	top: -3px;
+	right: 0;
+	text-align: center;
+	width: 250px;
+}
+#nametag a {
+	color: white;
+}
+#nametag a:link,
+#nametag a:visited {
+	text-decoration: none;
+}
+#nametag a:hover,
+#nametag a:active {
+	text-decoration: underline;
+}
+div#header {
+	background: #423d37 url('../graphics/photofiles-banner2.jpg') repeat-y 0 0; 
+	height: 65px;
+	overflow: hidden;
+	position: relative;
+	text-align: right;
+}
+div#header #logo {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+.navigation {
+	background: #800000;
+	width: 100%;
+}
+.navigation p {
+	color: white;
+	margin: 0;
+	padding: 2px 10px;
+}
+.navigation a:link,
+.navigation a:visited,
+.navigation a:hover,
+.navigation a:active {
+	color: white;
+}
+#footer {
+	background: #7a7344;
+	clear: both;
+	height: 4px;
+	margin: 0 -1px;
+	overflow: hidden;
+}
+#sidebar {
+	margin-top: -20px;
+}
+#sidebar div {
+	padding: 0 10px;
+	background: #f6f0cc;
+	margin: 20px 0;
+	padding: 0 10px 10px 10px;
+}
+div#sidebar input,
+div#sidebar select,
+div#browsepanel input,
+div#browsepanel select {
+	width: 100%;
+}
+div#sidebar .textinput,
+div#browsepanel .textinput {
+	width: 88%;
+}
+
+/*
+ * HOME PAGE 
+ */
+
+
+body#home div#header {
+	background: #423d37 url('../graphics/photofiles-banner.jpg') repeat-y 0 0; 
+	color: white;
+	height: 237px;
+}
+
+body#home .col {
+	background-repeat: no-repeat;
+	background-position: 90% 12px;
+}
+
+body#home h2 {
+	zoom: 1;//IE6 hasLayout bug;
+}
+
+/* BACKGROUND IMAGES */
+#introindividualsandgroups {
+	background-image: url(../graphics/apf1-02497s.jpg);
+}
+#introbuildingsandgrounds {
+	background-image: url(../graphics/apf2-03004s.jpg);
+}
+#introevents {
+	background-image: url(../graphics/apf3-01998s.jpg);
+}
+#introstudentactivities {
+	background-image: url(../graphics/apf4-01946s.jpg);
+}
+#introsports {
+	background-image: url(../graphics/apf4-00009s.jpg);
+}
+#introyerkes {
+	background-image: url(../graphics/apf2-08744s.jpg);
+}
+#intromaroon {
+	background-image: url(../graphics/apf7-04192-002s.jpg);
+}
+#introbotanydepartment {
+	background-image: url(../graphics/apf8-00010s.jpg);
+}
+
+/* NUDGE SINGLE LINE HEADINGS DOWN */
+#introevents h2 {
+	margin-top: 20px;
+}
+#introsports h2 {
+	margin-top: 20px;
+}
+
+/* META PAGES */
+
+img#illustrationlarge {
+	float: right;
+	padding: 0 0 20px 20px;
+}
+
+/* BROWSES */
+
+img#illustration {
+	left: -150px;
+	position: absolute;
+	top: 15px;
+}
+
+/* SEARCHES */
+
+body#browsesearchdetail .widecolumn {
+  display: inline; //IE6 bug;
+	float: left;
+}
+
+div.resultspager {
+	clear: left;
+}
+p.pager {
+	margin-top: 1em;
+}
+p.pager span {
+	border-left: 1px solid black;
+	margin-left: .4em;
+	padding-left: .4em;
+}
+p.pager span.noborder {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+div.thumb {
+	border: 1px solid #dfdcc9;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	width: 186px;
+}
+div.thumb div.thumbimage {
+	display: table-cell;
+	height: 118px;
+	vertical-align: middle;
+	width: 186px;
+}
+div.thumb div.thumbtext {
+	height: 128px;
+}
+div.thumb img {
+	border: 1px solid #666;
+	padding: 1px;
+}
+
+table#singleresult {
+	clear: left;
+	margin-bottom: 2em;
+	width: 100%;
+}
+table#singleresult td {
+	vertical-align: top;
+}
+table#singleresult td.label {
+	font-weight: bold;
+	padding-right: 1em;
+	width: 20%;
+}
+
+/* SINGLE RESULT */
+
+p.detail {
+	float: left;
+	text-align: center;
+}
+p.detail img {
+	border: 1px solid #666;
+	padding: 1px;
+}
+div.datum {
+	clear: left;
+}
+div.datum img {
+	float: left;
+}
+div.datum h2 {
+	border: 0;
+}
+

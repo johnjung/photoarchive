@@ -1,0 +1,15 @@
+<lock:lock xmlns:lock="http://marklogic.com/xdmp/lock">
+  <lock:lock-type>write</lock:lock-type>
+  <lock:lock-scope>exclusive</lock:lock-scope>
+  <lock:active-locks>
+    <lock:active-lock>
+      <lock:depth>0</lock:depth>
+      <lock:owner>mark@128.135.53.5</lock:owner>
+      <lock:timeout>300</lock:timeout>
+      <lock:lock-token>http://marklogic.com/xdmp/locks/44cd56bb8a1d7d3e</lock:lock-token>
+      <lock:timestamp>1236784393</lock:timestamp>
+      <sec:user-id xmlns:sec="http://marklogic.com/xdmp/security">17182801371023509166</sec:user-id>
+    </lock:active-lock>
+  </lock:active-locks>
+</lock:lock>
+

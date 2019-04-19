@@ -1,0 +1,173 @@
+<sess:session id="685a15f047d2b3b9" xmlns:sess="com.marklogic.developer.cq.session"><sec:user xmlns:sec="http://marklogic.com/xdmp/security">mark</sec:user><sec:user-id xmlns:sec="http://marklogic.com/xdmp/security">17182801371023509166</sec:user-id><sess:created>2008-05-07T13:58:48.20273-05:00</sess:created>
+  <sess:name>New Session</sess:name>
+  
+  
+<sess:last-modified>2009-03-11T09:32:34.545499-05:00</sess:last-modified><query-buffers rows="16" cols="80" xmlns="com.marklogic.developer.cq.session">
+<query content-source="as:575534788371063069:12172727359497495319">import module namespace lib="http://marklogic.lib.uchicago.edu:8003/lib" at "lib.xqy"
+
+import module namespace db="http://marklogic.lib.uchicago.edu:8003/lib" at "db.xqy
+
+
+define function keyword-search ($keywords, $elements) {
+cts:search(//record, 
+    cts:and-query((cts:collection-query(("archival_photofiles")),
+        cts:or-query((
+           for $i in $elements
+           return cts:element-query(xs:QName($i), 
+                                    cts:and-query((db:keyword-query($keywords))))
+                    ))
+)))
+}       
+
+
+let $a := xdmp:get-request-field("search")
+let $elements := (
+"titleSeries", 
+"titleName",
+"titleTypeName",
+"identifierScanNumber",
+"titlePhotoSequenceNumber",
+"alternateTitle1",
+"alternateTitle2",
+"alternateTitle3",
+"alternateTitle4",
+"dateBuildingGroundsCreated",
+"creatorArchitect1",
+"creatorArchitect2",
+"creatorDelineator",
+"creatorArtist",
+"creatorLandscapeDesigner1",
+"creatorLandscapeDesigner2",
+"creatorSculptor",
+"creatorStainedGlassDesigner",
+"datePhotographCreated",
+"creatorPhotographer",
+"creatorEngraver",
+"caption",
+"description",
+"subject1",
+"subject2",
+"subject3",
+"subject4",
+"subject5",
+"subject6",
+"coverageSpatial1",
+"coverageSpatial2",
+</query>
+<query>(: buffer 2 :)
+declare namespace html = "http://www.w3.org/1999/xhtml"
+&lt;p&gt;hello world&lt;/p&gt;</query>
+<query>(: buffer 3 :)
+declare namespace html = "http://www.w3.org/1999/xhtml"
+&lt;p&gt;hello world&lt;/p&gt;</query>
+<query>(: buffer 4 :)
+declare namespace html = "http://www.w3.org/1999/xhtml"
+&lt;p&gt;hello world&lt;/p&gt;</query>
+<query>(: buffer 5 :)
+declare namespace html = "http://www.w3.org/1999/xhtml"
+&lt;p&gt;hello world&lt;/p&gt;</query>
+<query>(: buffer 6 :)
+declare namespace html = "http://www.w3.org/1999/xhtml"
+&lt;p&gt;hello world&lt;/p&gt;</query>
+<query>(: buffer 7 :)
+declare namespace html = "http://www.w3.org/1999/xhtml"
+&lt;p&gt;hello world&lt;/p&gt;</query>
+<query>(: buffer 8 :)
+declare namespace html = "http://www.w3.org/1999/xhtml"
+&lt;p&gt;hello world&lt;/p&gt;</query>
+<query>(: buffer 9 :)
+declare namespace html = "http://www.w3.org/1999/xhtml"
+&lt;p&gt;hello world&lt;/p&gt;</query>
+<query>(: buffer 10 :)
+declare namespace html = "http://www.w3.org/1999/xhtml"
+&lt;p&gt;hello world&lt;/p&gt;</query>
+</query-buffers><query-history xmlns="com.marklogic.developer.cq.session">
+<query>import module namespace lib="http://marklogic.lib.uchicago.edu:8003/lib" at "lib.xqy"
+
+import module namespace db="http://marklogic.lib.uchicago.edu:8003/lib" at "db.xqy
+
+
+define function keyword-search ($keywords, $elements) {
+cts:search(//record, 
+    cts:and-query((cts:collection-query(("archival_photofiles")),
+        cts:or-query((
+           for $i in $elements
+           return cts:element-query(xs:QName($i), 
+                                    cts:and-query((db:keyword-query($keywords))))
+                    ))
+)))
+}       
+
+keyword-search("chicago", "title")</query>
+<query>import module namespace lib="http://marklogic.lib.uchicago.edu:8003/lib" at "lib.xqy"
+
+
+define function keyword-search ($keywords, $elements) {
+cts:search(//record, 
+    cts:and-query((cts:collection-query(("archival_photofiles")),
+        cts:or-query((
+           for $i in $elements
+           return cts:element-query(xs:QName($i), 
+                                    cts:and-query((keyword-query($keywords))))
+                    ))
+)))
+}       
+
+keyword-search("chicago", "title")</query>
+<query>import module namespace lib="http://marklogic.lib.uchicago.edu:8003/lib" at lib.xqy"
+
+
+define function keyword-search ($keywords, $elements) {
+cts:search(//record, 
+    cts:and-query((cts:collection-query(("archival_photofiles")),
+        cts:or-query((
+           for $i in $elements
+           return cts:element-query(xs:QName($i), 
+                                    cts:and-query((keyword-query($keywords))))
+                    ))
+)))
+}       
+
+keyword-search("chicago", "title")</query>
+<query>define function keyword-search ($keywords, $elements) {
+cts:search(//record, 
+    cts:and-query((cts:collection-query(("archival_photofiles")),
+        cts:or-query((
+           for $i in $elements
+           return cts:element-query(xs:QName($i), 
+                                    cts:and-query((keyword-query($keywords))))
+                    ))
+)))
+}       
+
+keyword-search("chicago", "title")</query>
+<query>define function keyword-search ($keywords, $elements) {
+cts:search(//record, 
+    cts:and-query((cts:collection-query(("archival_photofiles")),
+        cts:or-query((
+           for $i in $elements
+           return cts:element-query(xs:QName($i), 
+                                    cts:and-query((keyword-query($keywords))))
+                    ))
+)))
+}       
+
+keyword-search("chicago", "subject")</query>
+<query>//sec:metadata
+
+define function keyword-search ($keywords, $elements) {
+cts:search(//record, 
+    cts:and-query((cts:collection-query(("archival_photofiles")),
+        cts:or-query((
+           for $i in $elements
+           return cts:element-query(xs:QName($i), 
+                                    cts:and-query((keyword-query($keywords))))
+                    ))
+)))
+}       
+
+keyword-search("chicago", "subject")</query>
+<query>//sec:metadata
+</query>
+</query-history><active-tab xmlns="com.marklogic.developer.cq.session">0</active-tab></sess:session>
+

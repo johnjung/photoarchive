@@ -1,0 +1,40 @@
+<div class='table'>
+
+<form action="{$db.xqy}" method=post>
+<input type=hidden name="marker" value="0"></input>
+<input type=submit value="Previous 100 results"></input>
+</form>
+
+<b>16-30 of 91</b>
+
+<form action="{$db.xqy}" method=post>
+<input type=hidden name="marker" value="0"></input>
+<input type=submit value="Next 100 results"></input>
+</form>
+
+</div>
+
+
+<div class='result'>
+
+<form action="{$db.xqy}" method='post'>
+<input type='hidden' name='marker' value="{$marker}"></input>
+<input type='submit' value='Previous 100 results'></input>
+</form>
+
+<b>16-30 of 91</b>
+
+<form action="{$db.xqy}" method='post'>
+<input type='hidden' name='marker' value='{$marker}'></input>
+<input type='submit' value='Next 100 results'></input>
+</form>
+
+</div>
+
+define function next ($marker, $count) {
+if (($marker + $limit) <= $count)
+then ("|", <a href="{$db.xqy}?marker={$marker + $limit }">Next {$limit} results</a>)
+else if ($marker = $count)
+     then ()
+     else ("|", <a href="{$db.xqy}?marker={$count - $marker}">Next {$count - $marker} results</a>)
+}

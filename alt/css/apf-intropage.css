@@ -1,0 +1,16 @@
+/* INTRO PAGE */
+
+div#header {
+	background: #423d37 url('../graphics/photofiles-banner.jpg') repeat-y 0 0; 
+	color: white;
+	height: 237px;
+}
+
+p#copyright {
+	font-family: Arial, sans-serif;
+	font-size: .6em;
+	text-align: center;
+	padding-top: 20px;
+}
+
+	

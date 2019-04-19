@@ -1,0 +1,23 @@
+<table><tr><td align=right>
+
+<form action="/cgi-bin/nand/search/apf2-basic" method=post>
+<input type=hidden name="start" value="0"></input>
+<input type=hidden name="limit" value="15"></input>
+<input type=hidden name="search" value="::CONFIG::basicsearch"></input>
+<input type=hidden name="search-parm-0" value="fermi"></input>
+<input type=hidden name="search-field-0" value="::CONFIG::keywords"></input>
+<input type=submit value="Previous 15 hits"></input>
+</form>
+
+</td><td><b>16-30 of 91</b></td><td align=left>
+
+<form action="/cgi-bin/nand/search/apf2-basic" method=post>
+<input type=hidden name="start" value="30"></input>
+<input type=hidden name="limit" value="15"></input>
+<input type=hidden name="search" value="::CONFIG::basicsearch"></input>
+<input type=hidden name="search-parm-0" value="fermi"></input>
+<input type=hidden name="search-field-0" value="::CONFIG::keywords"></input>
+<input type=submit value="Next 15 hits"></input>
+</form>
+
+</td></tr></table>

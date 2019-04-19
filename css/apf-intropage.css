@@ -1,0 +1,43 @@
+/* INTRO PAGE */
+
+div#header {
+	background: #423d37 url('../graphics/photofiles-banner.jpg') repeat-y 0 0; 
+	color: white;
+	height: 237px;
+}
+p#copyright {
+	font-family: Arial, sans-serif;
+	font-size: .6em;
+	text-align: center;
+	padding-top: 20px;
+}
+div.marqueewrap {
+	clear: left; 
+	float: left;
+	width: 100%;
+	zoom: 1;
+}
+div.marqueewrap div {
+	display: inline;
+	float: left; 
+	margin-right: 4%; 
+	position: relative;
+	width: 28.5%;
+}
+div.marqueewrap h2 {
+	height: 3.8em;
+	margin-right: 4%;
+	padding-right: 55px;
+	position: relative;
+}
+div.marqueewrap h2 a,
+div.marqueewrap h2 span {
+	bottom: .2em;
+	position: absolute;
+}
+img.marqueeimage {
+	position: absolute;
+	right: 0;
+	top: 1.8em;
+}
+	

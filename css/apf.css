@@ -1,0 +1,460 @@
+/* RESET */
+
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background: #342e25 url('../graphics/bg.gif') repeat-x 0 0; 
+	border-top: 5px solid #afa693;
+	border-top: 5px solid #91897a;
+	text-align: center;
+	min-width: 760px;
+	padding-bottom: 2em;
+}
+div#nametag {
+	background: #afa693;
+	background: #91897a;
+	font: normal .7em Verdana, sans-serif;
+	padding: 0 0 4px 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	width: 250px;
+}
+div#nametag a {
+	color: white;
+}
+div#header {
+	background: #423d37 url('../graphics/photofiles-banner2.jpg') repeat-y 0 0; 
+	height: 65px;
+	overflow: hidden;
+	position: relative;
+	text-align: right;
+	width: 100%;
+}
+div#header #logo {
+	left: 0;
+	position: absolute;
+	top: 0;
+}
+p#breadcrumbs {
+	font-family: Verdana;
+	font-family: Georgia;
+	font-size: .75em;
+}
+div#content {
+	background: #f2f0e3;
+	background: #fbf7e3;
+	background: #fbf9ee;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	margin: 0 auto;
+	min-width: 800px;
+	max-width: 1168px;
+	text-align: left;
+	width: 90%;
+}
+div#text {
+	clear: both;
+	padding: 2em 80px 4em 160px;
+}
+div.thumb {
+	border: 1px solid #dfdcc9;
+	float: left;
+	margin: 5px;
+	padding: 5px;
+	text-align: center;
+	width: 186px;
+}
+div.thumb div.thumbimage {
+	display: table-cell;
+	height: 118px;
+	vertical-align: middle;
+	width: 186px;
+}
+div.thumb div.thumbtext {
+	height: 8em;
+}
+div.thumb h2 {
+	border: none;
+	padding-top: .6em;
+}
+div.thumb img {
+	border: 1px solid #666;
+	padding: 1px;
+}
+
+table#singleresult {
+	clear: left;
+	margin-bottom: 2em;
+	width: 100%;
+}
+table#singleresult td {
+	vertical-align: top;
+}
+table#singleresult td.label {
+	font-weight: bold;
+	padding-right: 1em;
+}
+
+/* SINGLE RESULT */
+
+p.detail {
+	float: left;
+	text-align: center;
+}
+p.detail img {
+	border: 1px solid #666;
+	padding: 1px;
+}
+div.datum {
+	clear: left;
+}
+div.datum img {
+	float: left;
+}
+div.datum h2 {
+	border: 0;
+}
+
+div#maincolumn {
+	margin: 1.7em 270px 0 0;
+	padding: 0 0 0 62px;
+	zoom: 1;
+}
+div#maincolumnbrowse {
+	margin: 1.7em 270px 0 0;
+	padding: 0 0 0 200px;
+	position: relative;
+	zoom: 1;
+}
+img#illustration {
+	left: 25px;
+	position: absolute;
+	top: 0;
+}
+img.illustrationsmall {
+	float: right;
+	padding: 10px 20px 10px 0;
+}
+img#illustrationlarge {
+	float: right;
+	padding: 0 0 20px 20px;
+}
+div#sidebar {
+	float: right; 
+	padding: 20px;
+	width: 220px;
+}
+div#sidebar div {
+	background: #eee8c7;
+	background: #f4ecc7;
+	background: #f2edd0;
+	background: #f6f0cc;
+	margin: 0 0 20px 0;
+	padding: 0 10px 10px 10px;
+}
+div#sidebar input,
+div#sidebar select,
+div#browsepanel input,
+div#browsepanel select {
+	width: 100%;
+}
+div#sidebar .textinput,
+div#browsepanel .textinput {
+	width: 97%;
+}
+div#browsepanel input {
+	width: auto;
+}
+ul.browses {
+	font-size: small;
+}
+ul.browses li ul li {
+	padding-left: 16px;
+}
+ul.browses li a {
+	font: bold 90% Verdana, sans-serif;
+	font: bold 100% Georgia, sans-serif;
+}
+li.comingsoon {
+	color: #a9b3b0;
+	color: #8496a4;
+	font: bold 90% Verdana, sans-serif;
+	font: bold 100% Georgia, sans-serif;
+	line-height: 1.7;
+}
+div#footer {
+	background: #7a7344;
+	clear: both;
+	height: 4px;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;
+}
+div.tab {
+	border: 1px solid black;
+	clear: left;
+	margin: 0 0 2em 0;
+	padding: 0 1em 1em 1em;
+	zoom: 1;
+}
+ul#tabs {
+	clear: left;
+	float: left;
+	margin: 1em 0 0 0;
+	position: relative;
+	top: 1px;
+	width: 100%;
+}
+ul#tabs li {
+	float: left;
+	margin: 0 0 0 5px;
+	padding: 0;
+}
+ul#tabs a {
+	border: 1px solid black;
+	float: left;
+	padding: 2px 10px;
+}
+ul#tabs a.active {
+	border-bottom: 1px solid #f3f3e0;
+}
+/*
+	background: #e5e1c9;
+	border: 1px solid black;
+	float: left;
+	line-height: 1.1;
+	margin-right: 5px;
+	padding: 2px 10px;
+	position: relative;
+	top: -5px;
+*/
+
+/* TYPOGRAPHY */
+
+h1 {
+	color: #333;
+	font: normal 1.6em Georgia, serif;
+	font: bold 1.3em Verdana, sans-serif;
+	font: bold 1.3em Georgia, sans-serif;
+	margin: 0 0 .34em 0;
+}
+h1#cattitle {
+	float: left;
+	font: normal 1.2em/1.4 Georgia, serif;
+	margin: 1.5em 0 0 0;
+	width: 100%;
+}
+h1#cattitle .collection {
+	display: block;
+	font-size: .65em;
+	text-transform: uppercase;
+}
+h1#cattitle .manuscriptnumber {
+	font-weight: bold;
+}
+h1#cattitle .additionalinfo {
+	display: block;
+}
+h2 {
+	border-bottom: 1px solid #d3c8ac;
+	color: #555;
+	font: normal 1.5em Georgia, serif;
+	font: bold 1.0em Verdana, sans-serif;
+	font: bold 1.0em Georgia, sans-serif;
+	padding: 1em 0 .25em 0;
+}
+h3 {
+	font: bold small/1.7 Georgia, serif;
+}
+p, td, th {
+	font: small/1.7 Georgia, serif;
+	margin-bottom: 1.36em;
+}
+dl {
+}
+dt, dd {
+	font: small/1.7 Georgia, serif;
+}
+dd {
+	white-space: nowrap;
+}
+ul {
+	list-style-type: none;
+}
+ol {
+	margin-left: 1.5em;
+	margin-bottom: 1em;
+}
+li {
+	font: small/1.7 Georgia, serif;
+	margin-bottom: .34em;
+}
+p#flipper, p#showscanned {
+	margin-left: 1em;
+}
+p#flipper {
+	margin-bottom: 0;
+}
+div#browselist li.collapsed a {
+	padding-left: 16px;
+}
+div#browselist li.expanded a {
+	padding-left: 16px;
+}
+div#browselist li.leaf a {
+	background: none;
+	padding-left: 8px;
+}
+div#browselist li a.objectlink {
+	background: none;
+	padding: 0;
+}
+.objectlink {
+	position: relative;
+}
+div#browselist img {
+	padding-left: 4px;
+}
+/*
+ * I got this to work in IE6 and FF
+ * by using visibility instead of display-
+ * also specifying top in em's instead of percentage of
+ * parent height.
+*/
+.objectlink img.popup {
+	border: 10px solid #f3f3e0;
+	left: 0;
+	padding: 0;
+	position: absolute;
+	top: 1.25em; 
+	visibility: hidden;
+	z-index: 2;
+}
+.objectlink:link img.popup,
+.objectlink:visited img.popup {
+	visibility: hidden;
+}
+.objectlink:hover img.popup,
+.objectlink:active img.popup {
+	visibility: visible;
+}
+.objectlink:hover {
+	display: inline;
+}
+a:link, a:visited, a:hover, a:active {
+	color: #0a3577;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: underline;
+}
+
+/* NAVIGATION */
+
+div.navigation {
+	background: #800000;
+	width: 100%;
+}
+div.navigation p {
+	color: white;
+	margin: 0;
+	padding: 2px 10px;
+}
+div.navigation a:link,
+div.navigation a:visited,
+div.navigation a:hover,
+div.navigation a:active {
+	color: white;
+}
+
+ul.navigation2 {
+	background: #dddddd;
+}
+ul.navigation2 li {
+	display: inline;
+	color: #222222;
+	font-size: .75em;
+	font-weight: bold;
+	padding: 3px 4px 2px 4px;
+}
+ul.navigation2 li a:link,
+ul.navigation2 li a:visited {
+	color: #999;
+	text-decoration: none;
+}
+ul.navigation2 li a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/* MANUSCRIPT LIST */
+
+table#manuscriptlist {
+	border-collapse: collapse;
+	width: 100%;
+}
+table#manuscriptlist td {
+	width: 22px;
+}
+table#manuscriptlist td,
+table#manuscriptlist th {
+	border-bottom: 1px solid #bbb;
+	padding: .2em;
+}
+div#manuscriptlisticons p {
+	margin-bottom: .6em;
+}
+div#manuscriptlisticons img {
+	padding-right: .5em;
+	vertical-align: middle;
+}
+
+/* THUMBS */
+
+div.resultspager {
+	clear: left;
+}
+p.pager {
+	margin-top: 1em;
+}
+p.pager span {
+	border-left: 1px solid black;
+	margin-left: .4em;
+	padding-left: .4em;
+}
+p.pager span.noborder {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+div.thumbs {
+	float: left;
+	font: .6em Arial;
+	height: 75px;
+	margin: 0 5px 20px 5px;
+	text-align: center;
+	width: 75px;
+}
+div.thumbs a {
+	text-decoration: none;
+}
+
+/* DESCRIPTIVE DISPLAY */
+
+.foliation {
+	padding-right: 1em;
+}
+.note {
+}
+.subheading {
+	font-weight: bold;
+	padding-right: .5em;
+}

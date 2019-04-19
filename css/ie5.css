@@ -1,0 +1,40 @@
+/*
+ * Simplify the page for any IE5 visitors.
+ */
+
+.threecolumns {
+	float: none;
+}
+body#home .col {
+	float: none;
+}
+#sidebar {
+	float: none;	
+	margin: 0;
+	width: 100%;
+}
+.widecolumn,
+.narrowcolumn {
+	margin: 0;
+}
+div#sidebar div {
+	background: transparent;
+	margin: 0;
+	padding: 0;
+}
+div#sidebar input,
+div#sidebar select,
+div#browsepanel input,
+div#browsepanel select {
+	display: block;
+	width: auto;
+}
+div#sidebar .textinput,
+div#browsepanel .textinput {
+	display: block;
+	width: auto;
+}
+
+body#home .col {
+	background: transparent;
+}
